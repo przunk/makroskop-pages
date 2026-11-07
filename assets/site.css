@@ -106,7 +106,7 @@ code { font-family: ui-monospace, "Cascadia Code", monospace; font-size: .86em; 
   .policy-body, .contents { border-color: CanvasText; }
 }
 @media print {
-  :root { color-scheme: light; --text: #000; --background: #fff; --surface: #fff; --muted: #333; --accent: #000; }
+  :root { color-scheme: light; --text: #000; --background: #fff; --surface: #fff; --surface-soft: #edf2e9; --muted: #333; --accent: #000; --line: #d9e2d5; --focus: #97600a; }
   .shell { width: 100%; }
   .language-switch, .sidebar, .back-link, .skip-link { display: none; }
   .site-header { padding-block: 10px; }
